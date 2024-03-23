@@ -1,0 +1,58 @@
+/*! SVG Türkiye Haritası | CSS | MIT Lisans | dnomak.com */
+
+.svg-turkiye-haritasi {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+.svg-turkiye-haritasi svg {
+  width: 100%;
+  height: auto;
+}
+.il-isimleri {
+  position: absolute;
+  z-index: 2;
+}
+.il-isimleri div {
+  font-family: inherit;
+  display: inline-block;
+  color: #fff;
+  padding: 8px 16px;
+
+}
+.il-info {
+background-image: linear-gradient(rgba(239,228,87,0.87), rgba(254,174,49,0.87));
+-webkit-border-bottom-right-radius: 5px;
+-webkit-border-bottom-left-radius: 5px;
+-moz-border-radius-bottomright: 5px;
+-moz-border-radius-bottomleft: 5px;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+.il-isimleri h4 {
+  width: 100%; 
+  background:#fff; 
+  color: #ed1c24; 
+  font-size: 11px; 
+  text-align: center; 
+  padding: 5px;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+margin: 0 ;
+ }
+.il-isimleri span {font-size: 35px; text-align: center; text-shadow: 1px 1px #393939; font-weight: 600; margin: auto;display: table; padding: 5px 0 10px;}
+.il-isimleri p {font-size: 12px; color: #fff; text-align: center; }
+#svg-turkiye-haritasi path {
+    cursor: pointer;
+    fill: #FF9100	;
+}
+#svg-turkiye-haritasi path:hover {
+  fill: #ed1c24;
+}
+#guney-kibris {
+  pointer-events: none;
+}
